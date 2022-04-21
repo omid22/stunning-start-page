@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  background-color: #bebebe;
+  color: #000;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 1rem;
+}
+
+header {
+  background-color: #bd027d;
+}
+
+h2 {
+    font-family: "PT Sans Narrow";
+    font-size: 1.25rem;
+}
+
+h3 {
+  font-family: "PT Sans Narrow";
+  font-size: 1.125rem;
+}
+
+section ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #ccc;
+}
+
+section li {
+  border: 3px solid #323232;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
