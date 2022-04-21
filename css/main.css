@@ -19,7 +19,11 @@ main {
 }
 
 header {
-  background-color: #bd027d;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "banner banner banner"
+  "col1   col1   col1"
 }
 
 h2 {
@@ -30,9 +34,11 @@ h2 {
 h3 {
   font-family: "PT Sans Narrow";
   font-size: 1.125rem;
+  text-align: center;
+  justify-content:
 }
 
-section ul {
+nav ul {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
